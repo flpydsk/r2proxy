@@ -1,0 +1,3 @@
+r2proxy
+The begining of a s3 api proxy running on cloudflare workers
+Dont use, has issues but ive stuck it up here in an attempt to get myself to look at this again and make it actually useable

@@ -1,0 +1,14 @@
+name = "r2proxy"
+main = "src/worker.ts"
+compatibility_date = "2023-10-06"
+workers_dev = false
+[placement]
+mode = "smart"
+
+routes = [
+  { pattern = "example.com", custom_domain = true }
+]
+
+kv_namespaces = [
+    { binding = "encrypted", id = "kv_namespace_id" }
+]
